@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Arctic Monkeys</title>
+	<link rel="stylesheet" type="text/css" href="css/contacto.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		  <div class="barra">
+				<div class="barra__logo">
+					<a href="index.html">
+						<img   class="barra__logo--tamaño" src="logo_botonera.png" alt="Logo Arctic"/>
+					</a>
+				</div>
+				
+			
+				<nav  class="menu">
+					<ul class="menu__botones"> <!--Inicio de botonera!-->
+						<li class="boton"><a href="index.html">Home</a></li>
+						<li class="boton"><a href="discografia.html">Discografia</a></li>
+						<li class="boton"><a href="galeria.html">Galeria</a></li>
+						<li class="boton"><a href="contacto.html">Contacto</a></li>
+						<li class="boton"><a href="#redes">Redes</a></li>
+					</ul>
+				</nav><!--Fin de Botonera!-->
+			</div>  <!--Logo de botonera!-->
+
+	</header>
+<section>
+	<div id="contacto"><h2>Redes</h2>
+		<nav>
+			<ul>
+			    <li><a href="#">Instragram</a></li>
+				<li><a href="#">Facebool</a></li>
+				<li><a href="#">Whatsapp</a></li>
+			</ul>
+		</nav></div>
+
+		<form method="GET" action="archivo.php">
+			<fieldset>
+				<h2>Contacto</h2>
+				<label for="nombre">Nombre:</label><br>
+					<input type="name" name="Nombre"><br>
+				<label for="nombre">Apellido:</label><br>
+					<input type="name" name="Apellido"><br></br>
+				<div>Masculino</div>
+					<input type="radio" name="Sexo" value="Hombre" id="Sexo">
+				<div>Femenino</div>
+					<input type="radio" name="Femenino" value="Femenino">
+				<div>Otro</div>
+					<input type="radio" value="Otro" name="Otro">
+					<br></br>
+				<div>Seleccione su pais:</div>
+				<select name="Pais">
+					<option value="Argentina">Argentina</option>
+					<option value="Uruguay">Uruguay</option>
+					<option value="Brasil">Brasil</option>
+				</select><br></br>
+					<div>Ingrese su Correo Electronico:</div>
+						<input type="email" name="Correo">
+						<br></br>
+					<div>Ingrese su consulta o comentario:</div>
+						<input type="text"><br></br>
+					<div>Acepta Terminos y Condiciones</div>
+						<input type="checkbox" name="condiciones" value="1"><br></br>
+				<input type="submit" name="Enviar">
+				<input type="reset" name="Reestablecer">
+			</fieldset>
+			<footer>
+				<nav id="redes">
+					<ul>
+						<li><a href="https://www.facebook.com/federicohernan.sandoval"><img class="redes__f" src="face.png" alt=""></a></li>
+						<li><a href="https://www.instagram.com/fedesandoval_17/"><img class="redes__i" src="instagram.png" alt=""></a></li>
+						<li><a href="#"><img class="redes__w" src="wpp.png" alt=""></a></li>
+					</ul>
+				</nav>
+		
+			</footer>	
+		</body>
+		</html>
